@@ -1,0 +1,10 @@
+extends layout
+
+block loginContainer
+  form(method='POST',action='')
+    div#loginContainer
+      p#usernameLabel Username
+      input#usernameInput
+      p#passwordLabel Password
+      input(type='password',id='passwordInput')
+      button(id='submitBtn',type='submit') LOGIN
